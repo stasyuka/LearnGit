@@ -1,0 +1,18 @@
+import org.junit.Test;
+
+public class MainClass
+{
+    int a = giveMeInt();
+
+    @Test
+    public void getLocalNumber()
+    {
+        int a = this.giveMeInt();
+
+    }
+    public int giveMeInt()
+    {
+        return 17;
+    }
+
+}
