@@ -1,0 +1,18 @@
+import org.junit.Test;
+
+public class MainClass
+{
+    int a = class_number();
+
+    @Test
+    public void getClassNumber()
+    {
+        int a = this.class_number();
+
+    }
+    private int class_number()
+    {
+        return 20;
+    }
+
+}
